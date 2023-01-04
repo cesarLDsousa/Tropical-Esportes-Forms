@@ -1,0 +1,80 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@200;400;600;800&display=swap');
+
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: #eef5ff;
+    font-size: 1.2rem;
+}
+
+html {
+    font-size: 62.5%;
+    font-family: 'Inter', sans-serif;
+}
+
+.header {
+    margin: 0px auto;
+    text-align: center;
+    
+    width: 90%;
+}
+
+.header .tropical-logo {
+    font-size: 2rem;
+}
+
+.header .warnings {
+    text-align: justify;
+}
+
+.choose {
+    width: 90%;
+    max-width: 100vw;
+    margin: 30px auto 10px auto;
+}
+
+.choose img {
+    width: 120px;
+}
+
+.products-imgs {
+    display: grid;
+    grid-template-columns: 180px 180px;
+    grid-row: auto auto;
+    grid-column-gap: 15px;
+    grid-row-gap: 15px;
+}
+
+.platforms-logos {
+    display: grid;
+    grid-template-columns: 180px 180px;
+    grid-row: auto auto;
+    grid-column-gap: 15px;
+    grid-row-gap: 15px;
+}
+
+.choose-platform {
+    margin-top: 50px;
+}
+
+.forms {
+    margin: 40px auto 20px auto;
+    width: 90%;
+    max-width: 100vw;
+}
+
+
+.forms .forms-header {
+    margin-top: 40px;
+}
+
+.forms h5 {
+    font-size: 1.2rem;
+}
+
+.final-hr {
+    margin: 30px 0px;
+}
+
+
